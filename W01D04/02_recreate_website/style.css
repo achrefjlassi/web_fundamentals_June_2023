@@ -21,6 +21,11 @@
         align-items: center;
         color: white;
         padding: 10px;
+        position: fixed;
+        background-color: coral;
+        top: 0;
+        /* top: 50px; */
+        /* right: 20px; */
     }
         h1{
             font-weight: lighter;
@@ -53,14 +58,73 @@
         }
             /* CARD CONTENT  */
             .card {
-                background-color: blue;
+                background-color: rgb(20,104,168);
                 width: 30%;
                 padding: 10px;
                 color:  white;
             }
             .card> img {
-                width: 40px;
+                width:30px;
+                margin-top: 5px;
             }
             .card > h3 {
                 display: inline-block;
+                font-size: 20pt;
+                font-weight: lighter;
+            }
+            .card p {
+                /* top-bottom(10px)  left_right(5px)*/
+                padding: 10px 5px;
+                margin-bottom: 10px;
+            }
+            .card button {
+                padding: 10px 20px;
+                background-color: rgb(25,142,216);
+                color:white;
+                border: none;
+                border-radius: 10%;
+            }
+            .testimonial {
+                margin-top: 10px;
+                display: flex;
+            }
+            .flex-1 {
+                width: 65%;
+            }
+            .flex {
+                display: flex;
+                /* justify-content: space-between; */
+                margin-top: 5px;
+            }
+            .flex p {
+                margin-left: 10px;
+            }
+
+            .flex-2 {
+                /* background-color: aqua; */
+                width: 33%;
+                min-height: 100px;
+                margin-left: 25px;
+            }
+
+            /* Footer */
+            footer {
+                background-color: aquamarine;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 60px;
+                position: fixed;
+                bottom: 50px;
+            }
+            footer p{
+                margin: 10px;
+            }
+            .circle {
+                width: 30px;
+                height: 30px;
+                background-color: red;
+                position: relative;
+                left: 50px;
+                border-radius: 50%;
             }
