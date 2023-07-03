@@ -1,6 +1,6 @@
 # WEB FUNDAMENTALS - june 2023
 
-[![Open in Visual Studio Code](https://img.shields.io/badge/open%20in%20vscode-blue??style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev//Dalihamrouni/web_fundamentals_ft_may_2023)
+[![Open in Visual Studio Code](https://img.shields.io/badge/open%20in%20vscode-blue??style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev//Dalihamrouni/web_fundamentals_ft_june_2023)
 
 
 ## clone/fork this repo, then `git pull` to get the latest changes
